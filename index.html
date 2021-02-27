@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel=" preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style/responsive.css">
+    <!--owl css: carrossel de imagens-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <title>NETFLIX CLONE</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <!--TAG SEMANTICA PARA MENUS DE NAVEGAÇÃO-->
+                <a href="a">Início</a>
+                <!--alt + shift + seta p baixo : clona os elementos-->
+                <a href="a">Séries</a>
+                <a href="a">Filmes</a>
+                <a href="a">Documentários</a>
+
+            </nav>
+        </div>
+    </header>
+    <!--miolo site: fica na tag main-->
+    <!--essas tags:main, div não tem proposito de fazer sentido ao codigo
+    mas impactam no SEO-->
+    <!--class container: caixas container: varios elementos que consigo ajustar 
+        ajustando o container-->
+    <main>
+        <div class="filme_principal">
+            <!--forma rapida: div.nome_classe-->
+            <div class="container">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descricao">
+                    Um político inescrupuloso não mede esforços para conquistar o poder nos
+                    EUA neste drama vencedor do Emmy e do Globo de Ouro.
+                </p>
+                <button role="button" class="botao"><i class="fas fa-play"></i> ASSISTIR AGORA</button>
+                <button role="button" class="botao"><i class="fas fa-info-circle"></i>MAIS INFORMAÇÕES</button>
+            </div>
+
+        </div>
+    </main>
+    <!--carrossel-->
+    <div class="carousel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class=".box-filme" src="img/bad_boys.jpg">
+            </div>
+            <div class="item">
+                <img class=".box-filme" src="img/lucifer.jpg">
+            </div>
+            <div class="item">
+                <img class=".box-filme" src="img/mulher_maravilha.jpg">
+            </div>
+            <div class="item">
+                <img class=".box-filme" src="img/ponto_vermelho.jpg">
+            </div>
+            <div class="item">
+                <img class=".box-filme" src="img/riverdale.jpg">
+            </div>
+            <div><img class=".box-filme" src="img/m1.jpg"></div>
+            <div><img class=".box-filme" src="img/m2.jpg"></div>
+            <div><img class=".box-filme" src="img/m3.jpg"></div>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/462c6d10bb.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
+
+</body>
+
+</html>
